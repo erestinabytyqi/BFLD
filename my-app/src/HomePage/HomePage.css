@@ -1,0 +1,10 @@
+#main-div{
+    border:1px solid black;
+    height: 1000px;
+    width: 100%;
+}
+#navbar{
+    border: 1px solid black;
+    height: 6%;
+    width: 100%;
+}

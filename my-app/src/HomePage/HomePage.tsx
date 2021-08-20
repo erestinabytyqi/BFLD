@@ -1,11 +1,13 @@
 import React from 'react';
+import './HomePage.css';
 
+function HomePage() {
+    return (
 
-function HomePage(){
-    return(
-
-        <div>
-
+        <div id="main-div">
+                    <div id="navbar">
+                    
+                    </div>
         </div>
     )
 }

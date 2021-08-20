@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.png';
 import './App.css';
 
 function Signin() {
@@ -10,7 +9,7 @@ function Signin() {
         <div id="logo-svg">
           <a href="####">
             <svg width="253" height="156" viewBox="0 0 253 156" fill="none" xmlns="http://www.w3.org/2000/svg" id="svg-position">
-              <rect width="253" height="156" fill="#787672" />
+              <rect width="253" height="156" fill="none" />
               <ellipse cx="87.5" cy="87" rx="7.5" ry="9" fill="white" />
               <ellipse cx="90.5" cy="84.5" rx="8.5" ry="7.5" fill="white" />
               <ellipse cx="90.5" cy="93.5" rx="8.5" ry="7.5" fill="white" />
