@@ -1,12 +1,11 @@
 #main-div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 50px;
     width: 100%;
+    background-color: rgb(120,118,114); 
 }
 
-body{
-    background-color: wheat;
-}
+
 #svg-details{
     margin-top: 7px;
     margin-left: 9px;
@@ -14,10 +13,12 @@ body{
     float: left;
 }
 #Search-bar{
+    position: absolute;
     margin-left: 32%;
     margin-top: 7px;
     border-radius: 9px;
-    padding: 10px 97px;
+    padding: 10px 17px;
+    padding-right: 12%;
     border: 1px solid white;
 }
 #public-icon{
@@ -45,6 +46,21 @@ body{
 }
 
 #Search-bar::placeholder{
-    background-color: teal;
+    background-color: white;    
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
+.color-icon{
+    color: white;
+    display: inline-flexbox;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+#search-icon{
+    position:absolute;
+    display:inline-flexbox;
+    top :1.9%;
+    z-index: 100;
+    left:59.6%;
 }

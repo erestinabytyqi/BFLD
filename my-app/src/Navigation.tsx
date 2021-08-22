@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Signin from './SignIn';
 import HomePage from './HomePage/HomePage';
 import NavBar from './NavBar';
+import NotificationsWork from './Homepage-Notifications/NotificationsWork';
 function Navigation() {
     return (
         < Router >
@@ -10,7 +11,8 @@ function Navigation() {
                  <Route path='/signin' component={Signin} />
                   <Route path='/homepage' component={HomePage}/>
                   <Route path='/navbar' component={NavBar}/>
-            </Switch>
+                    <Route path='/notificationswork' component={NotificationsWork}/>
+                    </Switch>
         </Router >
 
 )
