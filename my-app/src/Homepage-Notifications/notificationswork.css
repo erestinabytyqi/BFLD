@@ -1,0 +1,22 @@
+#notifications-div{
+    border: 1px solid black;
+    height: 90%;
+    width:20%;
+    position: absolute;
+    top:10%;
+    left: 3%;
+  
+}
+
+#notifications-title{
+    /* border: 1px solid black; */
+    height: 7%;
+    width: 100%;
+border-right:3px solid black;
+}
+
+#notificationforwork-style{
+text-align: center;
+font-family: 'Roboto Condensed', sans-serif;
+
+}
