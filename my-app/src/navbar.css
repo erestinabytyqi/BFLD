@@ -1,31 +1,36 @@
-#main-div{
+#main-div {
     /* border: 1px solid black; */
     height: 50px;
     width: 100%;
-    background-color: rgb(120,118,114); 
+    position: fixed;
+    background-color: rgb(120, 118, 114);
+    z-index: 10;
 }
 
-
-#svg-details{
+#svg-details {
     margin-top: 7px;
     margin-left: 9px;
     display: inline;
     float: left;
 }
-#Search-bar{
+
+#Search-bar {
     position: absolute;
     margin-left: 32%;
-    margin-top: 7px;
+    margin-top: 6px;
     border-radius: 9px;
-    padding: 10px 17px;
+    padding: 5px 17px;
     padding-right: 12%;
     border: 1px solid white;
 }
-#public-icon{
+
+#public-icon {
     margin-left: 24%;
     display: inline;
+    margin-top: 10px;
 }
-#profile-icon{
+
+#profile-icon {
     margin-left: 68px;
     font-size: 34px;
     float: right;
@@ -34,33 +39,34 @@
     margin-right: 20px;
 }
 
-#notification-icon{
+#notification-icon {
     margin-left: 10px;
     display: inline;
+    margin-top: 10px;
 }
 
-#people-icon{
+#people-icon {
     margin-left: 10px;
     margin-top: 10px;
     display: inline;
 }
 
-#Search-bar::placeholder{
-    background-color: white;    
+#Search-bar::placeholder {
+    background-color: white;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-.color-icon{
+.color-icon {
     color: white;
     display: inline-flexbox;
     flex-direction: row;
     text-decoration: none;
 }
 
-#search-icon{
-    position:absolute;
-    display:inline-flexbox;
-    top :1.9%;
+#search-icon {
+    position: absolute;
+    display: inline-flexbox;
+    top: 25.9%;
     z-index: 100;
-    left:59.6%;
+    left: 59.6%;
 }

@@ -1,0 +1,61 @@
+#themainprofilediv {
+    border: 1px solid black;
+    height: 2000px;
+    width: 100%;
+}
+
+#testid {
+    border: 1px solid white;
+    height: 400px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+#profilepicture {
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 0;
+    background-color: tomato;
+}
+
+#aboutmediv {
+    border: 1px solid black;
+    height: 500px;
+    width: 400px;
+    margin-top: 5%;
+    margin-left: 2.5%;
+}
+
+#aboutmetitle {
+    border: 1px solid black;
+    height: 10%;
+    width: 100%;
+}
+
+#editingtitles {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#name-surname {
+    border: 1px solid black;
+    height: 100px;
+    width: 29%;
+    position: absolute;
+    z-index: 1000;
+    top: 38%;
+    left: 29%;
+}
+
+#designnamesurname {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#midProfession {
+    margin-left: 10px;
+}
