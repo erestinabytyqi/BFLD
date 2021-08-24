@@ -6,12 +6,12 @@ function HomePage() {
     return (
 
         <div id="main-div">
-                    <div id="navbar">
-                        <NavBar></NavBar>
-                    </div>
-                    <div>
-                        <NotificationsWork></NotificationsWork>
-                    </div>
+            <div id="navbar">
+                <NavBar></NavBar>
+            </div>
+            <div>
+                <NotificationsWork></NotificationsWork>
+            </div>
         </div>
     )
 }

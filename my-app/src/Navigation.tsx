@@ -5,19 +5,25 @@ import HomePage from './HomePage/HomePage';
 import NavBar from './NavBar';
 import NotificationsWork from './Homepage-Notifications/NotificationsWork';
 import PagesignComponent from './PageSignComponent/PagesignComponent';
+import Signup from './Signup';
+import BDLFComponent from './PageSignComponent/BDLFComponent';
+import Profile from './Profile/Profile';
 function Navigation() {
     return (
         < Router >
             <Switch>
-                 <Route path='/signin' component={Signin} />
-                  <Route path='/homepage' component={HomePage}/>
-                  <Route path='/navbar' component={NavBar}/>
-                    <Route path='/notificationswork' component={NotificationsWork}/>
-                    <Route path='/pagesigncomponent' component={PagesignComponent}/>
+                <Route path='/signin' component={Signin} />
+                <Route path='/homepage' component={HomePage} />
+                <Route path='/navbar' component={NavBar} />
+                <Route path='/notificationswork' component={NotificationsWork} />
+                <Route path='/pagesigncomponent' component={PagesignComponent} />
+                <Route path='/signup' component={Signup} />
+                <Route path='/bdlfcomponent' component={BDLFComponent} />
+                <Route path='/profile' component={Profile} />
 
-                    </Switch>
+            </Switch>
         </Router >
 
-)
-    }
-    export default  Navigation;
+    )
+}
+export default Navigation;

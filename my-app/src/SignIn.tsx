@@ -5,8 +5,8 @@ function Signin() {
   return (
     <div id="Div-MainSiza">
       <div>
-      <PagesignComponent></PagesignComponent>
-        </div>
+        <PagesignComponent></PagesignComponent>
+      </div>
       <a href="###"><h3 id="apply-admin">Apply for Admin?</h3></a>
       <div id="Logo-and-title">
         <div id="logo-svg">
@@ -52,21 +52,21 @@ function Signin() {
           <h1 id="sign-in-style">Sign in</h1>
 
           <label className="text-design">Username:</label>
-          
+
           <input type="text" className="input-design" placeholder="User Name">
           </input>
-          
+
           <label className="text-design1">
             Password:
           </label>
-        
+
           <input type="password" className="input-design" placeholder="Password">
           </input>
           <br></br>
           <button id="button">Sign in</button>
 
         </form>
-         
+
       </div>
       <h4 id="footer">BDLF™ 2021</h4>
     </div>
