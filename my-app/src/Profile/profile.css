@@ -1,11 +1,11 @@
 #themainprofilediv {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 2000px;
     width: 100%;
 }
 
 #testid {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     height: 400px;
     width: 100%;
     background-color: blueviolet;
@@ -46,7 +46,7 @@
     height: 100px;
     width: 29%;
     position: absolute;
-    z-index: 1000;
+    z-index: 9;
     top: 38%;
     left: 29%;
 }
@@ -58,4 +58,81 @@
 
 #midProfession {
     margin-left: 10px;
+}
+
+
+/*-------------------------------------------Event Page CSS---------------------------------------------------*/
+
+#event-page-div {
+    border: 1px solid black;
+    width: 63%;
+    height: 685px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-left: 35.7%;
+    margin-top: -28%;
+}
+
+#addtogether {
+    /* border: 20px solid black; */
+    height: 1000px;
+    width: 100%;
+}
+
+#tabs {
+    /* border: 1px solid black; */
+    height: 51px;
+    width: 62%;
+    display: flex;
+    position: absolute;
+    top: 60%;
+    left: 36%;
+}
+
+.buttons {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 40px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.colorforlinks {
+    color: black;
+    text-decoration: none;
+}
+
+#postSomething {
+    border: 1px solid black;
+    height: 400px;
+    width: 100%;
+}
+
+#text-area {
+    border: 1px solid black;
+    height: 200px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#userNames {
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+}
+
+#usernamestyleforeventpage {
+    margin-top: 6px;
+    margin-left: 4px;
 }

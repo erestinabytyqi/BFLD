@@ -8,6 +8,8 @@ import PagesignComponent from './PageSignComponent/PagesignComponent';
 import Signup from './Signup';
 import BDLFComponent from './PageSignComponent/BDLFComponent';
 import Profile from './Profile/Profile';
+import ProfileName from './Profile/ProfileName';
+import EventPage from './Profile/EventPage';
 function Navigation() {
     return (
         < Router >
@@ -20,6 +22,10 @@ function Navigation() {
                 <Route path='/signup' component={Signup} />
                 <Route path='/bdlfcomponent' component={BDLFComponent} />
                 <Route path='/profile' component={Profile} />
+                <Route path='/profilename' component={ProfileName} />
+                <Route path='/eventpage' component={EventPage} />
+
+
 
             </Switch>
         </Router >
